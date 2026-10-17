@@ -1,9 +1,12 @@
+\DocumentMetadata{lang=en-US}
 \documentclass[12pt, letterpaper, titlepage]{article}
 
 
 
 \usepackage[margin=1in]{geometry}
 \usepackage{microtype}
+\usepackage[nodisplayskipstretch]{setspace}
+\setstretch{1.15}
 
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -12,7 +15,7 @@
 
 \input{commands}
 \usepackage{comment}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 
 
 
@@ -23,28 +26,20 @@ Mathematics and Example Applications}
 
 \hypersetup{
     pdftitle={\portfoliotitle: \portfoliosubtitle},
+    pdfdisplaydoctitle=true,
     pdfauthor={\portfolioauthor},
+    pdfcopyright={Copyright 2026 \portfolioauthor. Licensed under CC BY-NC-SA %
+    4.0},
+    pdflicenseurl={https://creativecommons.org/licenses/by-nc-sa/4.0/},
     pdfsubject={This document examines standard proof techniques found in %
     discrete mathematics. It combines meticulous explanations with example %
     applications to accessibly define and demonstrate each approach.},
-    pdfkeywords={\portfoliotitle, \portfoliosubtitle, \portfolioauthor,
-    Discrete, Mathematics, Discrete Mathematics, Math, Discrete Math, Proofs,
-    Proof, Techniques, Technique, Proof Techniques, Proof Technique, Examples,
-    Example, Proof Examples, Proof Example, Existential, Statements, Statement,
-    Existential Statements, Existential Statement, Universal,
-    Universal Statements, Universal Statement, Construction,
-    Proof by Construction, Exhaustion, Proof by Exhaustion, Direct,
-    Direct Proof, Division, Cases, Division into Cases,
-    Proof by Division into Cases, Contradiction, Proof by Contradiction,
-    Contraposition, Proof by Contraposition, Induction, Proof by Induction,
-    Proving, Subset, Containment, Subset Containment,
-    Proving Subset Containment, Element, Method, Element Method,
-    Proving Subset Containment via the Element Method, Function,
-    Proving a Function, One-to-One, Proving a Function is One-to-One, Onto,
-    Proving a Function is Onto, Bijective, Proving a Function is Bijective,
-    Constructing, Inverse,
-    Proving a Function is Bijective by Constructing an Inverse}
-    pdflang={en-US}
+    pdfkeywords={Discrete Mathematics, Proof Techniques},
+    bookmarksnumbered=true,
+    bookmarksopen=true,
+    pdfpagelayout={OneColumn},
+    pdfpagemode={UseOutlines},
+    pdfstartview={FitH}
 }
 
 
